@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="./bootstrap.min.css">
+
+</head>
+
+<body>
+  <!-- begining of header -->
+<header>
+     <nav class="links ">
+          <a href="" target="_blank">Gmail</a>
+          <a href="" target="_blank">Images</a>
+          <a href="" target="_blank">Contact</a>   
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" id="size"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+     logIn
+   </button>
+   
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h1 class="modal-title fs-5" id="exampleModalLabel">signIn</h1>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+          <input type="email" placeholder="enter your email" class=" form-control" id="email">
+          <input type="password" placeholder="enter your password" class=" pwd form-control" id="pwd">
+          <button class="btn " type="button" id="btn">logIn</button>
+         </div>
+         <div class="modal-footer">
+         </div>
+       </div>
+     </div>
+   </div>
+     </nav>
+     <nav class="banner">
+          <img src="./googlelogo_color_272x92dp.png" alt="">
+     </nav>
+    
+     <nav class="navigation">
+
+          <img src="./download.svg" alt="" class="img">
+          <input type="search" class="search">
+          
+     </nav>
+</header>
+<!-- ending of header -->
+
+<!-- begining of footer -->
+<footer>
+  <marquee  class="mack"  behavior="smooth" direction="left">&copy;keju124</marquee>
+</footer>
+<!-- ending of footer -->
+
+<!-- bootstrap and javascript  -->
+<script src="./jquery-3.6.1.js"></script>
+<script src="./bootstrap.bundle.min.js"></script>
+<script src="./file.js"></script>
+
+
+</body>
+
+</html>
